@@ -194,7 +194,7 @@
                     <label for="person${i}">Person ${i} Name</label>
                     <input class="form-control" name="person${i}Name" type="text" placeholder="Name of Person ${i}" value="${existingValues[i-1] ? existingValues[i-1].name : ''}">
                     <label for="person${i}Days">Days</label>
-                    <input class="form-control" name="person${i}Days Stayed" type="number" value="${existingValues[i-1] ? existingValues[i-1].days : 0}" placeholder="Days Stayed">
+                    <input class="form-control" name="person${i}Days" type="number" value="${existingValues[i-1] ? existingValues[i-1].days : 0}" placeholder="Days Stayed">
                 `;
                 container.appendChild(inputDiv);
             }
